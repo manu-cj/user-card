@@ -52,8 +52,8 @@ export default {
     }
 
     .cards {
-        width: 26%;
-        height: 400px;
+        width: 25%;
+        height: 500px;
         border: 2px orange solid;
         display: flex;
         flex-direction: column;
