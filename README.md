@@ -1,6 +1,6 @@
 # user-card
 ```
-use of the "https://randomuser.me/" API to generate fake users in order to create user cards
+use of the "https://randomuser.me/" API to generate fake users in order to create user cards with vue.js
 ```
 
 ## Project setup

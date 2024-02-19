@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import UserCard from './components/UserCard.vue'
+import UserCard from './components/UserCard'
 
 export default {
   name: 'App',
