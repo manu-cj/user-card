@@ -1,4 +1,7 @@
 # user-card
+```
+use of the "https://randomuser.me/" API to generate fake users in order to create user cards
+```
 
 ## Project setup
 ```
