@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <UserCard msg="Welcome to Your Vue.js App"/>
+  <BannierePage></BannierePage>
+  <UserCard></UserCard>
+  <FooterPage></FooterPage>
 </template>
 
 <script>
 import UserCard from './components/UserCard'
+import BannierePage from './components/BannierePage.vue';
+import FooterPage from './components/FooterPage.vue'
 
 export default {
   name: 'App',
   components: {
-    UserCard
+    UserCard,
+    BannierePage,
+    FooterPage
   }
 }
 </script>
@@ -21,6 +26,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
 </style>
